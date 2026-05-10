@@ -1,0 +1,877 @@
+
+@media only screen and (max-width: 640px) {
+
+    .LoginSection .LoginBox {
+        width: 100%;
+        margin: 0;
+    }
+
+    .LoginSection .LoginBox .box_Login_Intro {
+        height: auto;
+    }
+
+    .LoginSection .LoginBox .box_Login_Intro h2 {
+        font-size: 15px;
+    }
+
+    .LoginSection .LoginBox .box_Login_Intro p {
+        font-size: 11px;
+    }
+
+    .LoginSection .LoginBox form {
+        height: auto;
+    }
+
+    .LoginSection #VerifySMSUser {
+        width: 100% !important;
+    }
+
+    .Box_filter_order {
+        display: flex !important;
+        flex-direction: row;
+    }
+
+    .contactListTechnician {
+        position: fixed;
+        right: 0;
+        top: 32px;
+        height: 100%;
+        z-index: 1000;
+        width: 100%;
+    }
+
+    ul.list_of_invoice.header.fin.hide_in_desktop {
+        display: block !important;
+        width: 20%;
+        float: right;
+        margin: 40px 6px 0 0;
+        padding: 0;
+        box-shadow: none;
+
+    }
+
+    ul.list_of_invoice.header.fin {
+        display: none;
+    }
+
+    .list_of_invoice.header li {
+        border-left: none;
+        font-size: 11px !important;
+        width: 100%;
+        height: 32px;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .Cart-Technician-style {
+        width: 95% !important;
+    }
+
+    .description_invoice.GreenBold {
+        width: 100% !important;
+    }
+
+    .list_of_invoice.header.fin {
+        margin-bottom: 32px !important;
+    }
+
+    .list_of_invoice li b {
+        color: #ff8800;
+        font-size: 11px;
+    }
+
+    ul.list_of_invoice li {
+        display: flex;
+        width: 100% !important;
+        height: 32px;
+        border: none;
+        border-bottom-width: medium;
+        border-bottom-style: none;
+        border-bottom-color: currentcolor;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        padding: 0 !important;
+        font-size: 13px !important;
+        border-bottom: 1px solid #efefef;
+        box-shadow: none !important;
+        background-color: #fff;
+    }
+
+    .price_list_style li span {
+        float: right;
+        display: contents;
+        background-color: var(--second) !important;
+        display: flex;
+        text-align: right;
+        padding: 11px;
+        margin: 0;
+        width: 50%;
+    }
+
+    .Reward_style_color.credit {
+        background-color: green; /* رنگ سبز برای بستانکار */
+        color: white;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    .Reward_style_color.debt {
+        background-color: red;
+        color: white;
+        padding: 11px 0;
+        border-radius: 0;
+    }
+
+
+    .price_list_style {
+        margin-bottom: 8px !important;
+    }
+
+    .Reward_style_color {
+        /*background-color: red;*/
+        padding: 11px;
+        float: right;
+        display: flex;
+        margin: 0;
+        width: 50%;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .list_of_invoice a {
+        display: inline-block;
+        background: var(--second);
+        width: auto;
+        color: #000;
+        font-size: 8px;
+        padding: 2px 4px;
+        border-radius: 4px;
+        margin: 4px 6px 0 0;
+        text-decoration: none;
+    }
+
+    .list_of_invoice.header.fin {
+        background: #ffffff !important;
+
+    }
+
+    .BackToLogin {
+        margin-right: calc(100% - 90px);
+        font-size: 13px;
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    .LoginSection .LoginBox form {
+        float: right;
+        width: 100%;
+        height: 216px;
+        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    nav {
+        width: 100%;
+        height: auto;
+        padding: 12px 16px;
+        box-shadow: 0 0 17px #d4d4d4;
+        z-index: 999;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    nav .List_Of_Menu {
+        position: fixed;
+        width: 100%;
+        height: calc(100% - 62px);
+        bottom: 0;
+        background: #fff;
+        right: 0;
+        overflow: auto;
+        display: none;
+    }
+
+    nav #DashboardLogo {
+        float: right;
+        width: 90px;
+        margin: 0 0 0 18px;
+    }
+
+    nav .detail_user {
+        float: right;
+        margin: 4px 0 0 0;
+        width: auto;
+        padding: 0 !important;
+    }
+
+    nav .detail_user .name {
+        font-size: 12px;
+        margin: 0 12px 0 4px;
+        width: auto;
+    }
+
+    .detail_user img.img-style {
+        width: 30px;
+        padding-left: 8px;
+    }
+
+    .list_of_invoice.header.fin .hide_in_desktop {
+        display: block !important;
+        width: 30%;
+    }
+
+    .detail_user .user-left {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav .detail_user .side {
+        font-size: 6px;
+        padding: 3px 8px;
+        float: right;
+        width: 44px !important;
+    }
+
+    nav .MobileMenu {
+        float: left;
+        font-size: 13px;
+        background: var(--first);
+        color: #fff;
+        padding: 6px;
+        border-radius: 6px;
+        margin: 0;
+        cursor: pointer;
+        display: block;
+        text-align: center;
+    }
+
+    nav .MobileMenu img {
+        float: right;
+        width: 16px !important;
+        margin: 0 !important;
+    }
+
+    nav .MobileMenu:hover {
+        background: var(--second);
+    }
+
+    nav .List_Of_Menu.active {
+        display: block;
+    }
+
+    .main {
+        width: 100%;
+        padding: 0;
+    }
+
+    .MenuListDashboard ul li {
+        width: 48%;
+    }
+
+    .MenuListDashboard ul li a {
+        height: 100px;
+    }
+
+    .MenuListDashboard ul li a svg {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        margin: 0 auto 12px;
+    }
+
+    .MenuListDashboard ul li a span {
+        font-size: 14px;
+    }
+
+    .table.ListTable th, .table.ListTable td {
+        font-size: 9px;
+    }
+
+    .table.ListTable td a {
+        padding: 5px 5px;
+        font-size: 10px;
+    }
+
+    .main .content {
+        overflow-x: auto;
+    }
+
+    body .form-group {
+        width: 100% !important;
+    }
+
+    .main .content {
+        overflow-x: auto;
+        margin: 0 !important;
+    }
+
+    .filter {
+        display: block !important;
+    }
+
+    .filter {
+        display: block !important;
+    }
+
+    .filter li {
+        width: 25% !important;
+        margin: 0;
+        padding: 4px;
+    }
+
+    .filter li a {
+        padding: 6px 0px !important;
+        font-size: 8px;
+        width: 70px;
+        height: 40px;
+    }
+
+    .filter li:nth-child(3), .filter li:nth-child(4) {
+        width: 25% !important;
+    }
+
+    #tech_search {
+        width: 100%;
+    }
+
+    .filter li i {
+        width: 16px;
+        height: 17px;
+        margin: 0 8px 0 0;
+    }
+
+    .filter li:last-child {
+        width: 100%;
+    }
+
+    .titleBox {
+        font-size: 13px;
+    }
+
+    .SearchBox .form-group {
+        width: 48% !important;
+    }
+
+    .SearchBox .form-group label {
+        font-size: 11px !important;
+    }
+
+    .select2-container--default .select2-selection--single .select2-selection__rendered {
+        font-size: 13px !important;
+    }
+
+    .itemOrderBox .header_order li {
+        width: 100%;
+        padding: 3px 5px;
+    }
+
+    .main .content {
+        padding: 16px !important;
+        margin-top: 64px !important;
+    }
+
+    .itemOrderBox a {
+        width: 48%;
+        text-align: center;
+        padding: 8px 0;
+    }
+
+    .Box_filter_order .filter {
+        float: left;
+        width: 100% !important;
+        margin: 0;
+    }
+
+    .Box_filter_order .filter a {
+        width: 100%;
+        padding: 10px 20px !important;
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Show_Order.table th, .Show_Order.table td {
+        font-size: 11px;
+        margin: 0px !important;
+        padding: 8px !important;
+        width: 30%;
+    }
+
+    .main .content .title {
+        font-size: 14px;
+    }
+
+    .main .content form > span {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    #Tech_DetailAjax .two {
+
+        width: 48% !important;
+    }
+
+    .list_of_data li {
+        width: 100% !important;
+        height: 80px;
+        font-size: 10px;
+        display: flex;
+        flex-direction: column;
+        border-left: 1px solid #e1e1e1;
+    }
+    .list_of_data li:nth-last-child(1) {
+        border-left: none !important;
+    }
+    .list_of_data_tech.show_horizental {
+        padding-left: 0 !important;
+        padding: 12px 0 !important;
+        box-shadow: 1px 5px 5px red;
+        border: 1px solid #00509d2e;
+        background-color: #00509d1f;
+        border-radius: 8px;
+    }
+
+    .Brand_name_Order span {
+        background-color: #ffffff;
+        margin: 28px;
+        width: 46%;
+        padding: 0;
+    }
+
+    .Description_Address {
+        width: 98%;
+        background-color: #ffffff;
+        margin: 8px;
+    }
+
+    .list_of_data.list_of_data_tech.show_horizental li {
+        font-size: 10px;
+    }
+
+    .list_of_data .edit, .list_of_data .View-Tech {
+        padding: 6px 10px;
+        margin: 0;
+    }
+
+    .list_of_data.head li {
+        background: #ffffff;
+        color: #000000;
+        border-bottom: 0.5px solid #eeeeee;
+    }
+
+    .list_of_data .Brand_name_Order {
+        background-color: #ffffff;
+        margin: 8px;
+    }
+
+    body .Date_Order_tech {
+        background-color: #fff;
+        width: 96% !important;
+    }
+
+    .Description_Order_Order span {
+        background-color: #fff;
+        width: 32%;
+        padding: 8px 0;
+    }
+
+    .DashboardLogosite {
+        display: none;
+    }
+
+    .user-right img {
+        width: 48px;
+        height: 48px;
+        border-radius: 72px;
+    }
+
+    .detail_user {
+
+        padding: 8px;
+        margin: 40px 0 0 0;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .list_of_data.list_of_data_tech.show_horizental li {
+        font-size: 12px;
+    }
+
+    .list_of_data_tech {
+        background: #ededed;
+    }
+
+    .content ul .Address {
+        width: 100%;
+    }
+
+    .Ticket_list {
+        margin: 0 0 15px;
+    }
+
+    .list_of_data.hide_in_desktop {
+        display: block !important;
+        width: 25%;
+        margin-top: 40px;
+    }
+
+    .List_Of_piece ul.head_in li {
+        font-size: 9px;
+    }
+
+    .List_Of_piece input {
+        font-size: 9px;
+    }
+
+    .List_Of_piece .add_box_temp {
+        font-size: 11px;
+        padding: 8px 0;
+    }
+
+    .TotalInvoice table th {
+        width: 40%;
+        font-size: 12px;
+    }
+
+    .dontEdit::after {
+        font-size: 20px;
+    }
+
+
+    .dontEdit::after {
+        font-size: 20px;
+    }
+
+    .ListOfTicketOrder li a span {
+        width: 100% !important;
+        border: 0 !important;
+        margin: 0 0px 11px;
+    }
+
+    .ListOfTicketOrder li a {
+        display: block !important;
+    }
+
+    .ListOfTicketOrder.desc li a {
+        font-size: 13px;
+        line-height: 4;
+    }
+
+    .Charge_Wallet li {
+        width: 48%;
+        margin: 0 1% 9px;
+    }
+
+    .Charge_Wallet li:last-child {
+        width: 100%;
+    }
+
+    .Charge_Wallet li a {
+        font-size: 14px;
+        height: 45px;
+    }
+
+    .customer_view_order .box_order {
+        width: 100%;
+    }
+
+    .User_Register_show_invoice .box_register {
+        width: 100%;
+        padding: 0 12px;
+    }
+
+    .User_Register_show_invoice .box_register h2 {
+        line-height: 2;
+    }
+
+    .LoginSection .LoginBox form {
+        /* float: right; */
+        width: 100%;
+    }
+
+    .Box_filter_order #SearchBoxBTN {
+        width: 48%;
+        padding: 10px 0px;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #ConvertToEcxel {
+        width: 48%;
+        padding: 10px;
+    }
+
+    .filter_option_div {
+        margin: 24px 0 24px 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .Short_view_option {
+        float: right;
+        width: 100%;
+        list-style: none;
+        padding: 0;
+        margin: 0 0 0px 0;
+        display: flex;
+        flex-direction: column !important;
+    }
+
+    .description_invoice .order_desc {
+        flex-direction: column !important;
+    }
+
+    .LoginSection .LoginBox .row {
+        width: 100% !important;
+    }
+
+    .LoginSection .LoginBox {
+        padding: 0;
+    }
+
+    .LoginSection .LoginBox .box_Login_Intro {
+        padding: 16px !important;
+    }
+
+    .containerInput .input {
+        width: 40px;
+        font-size: 22px;
+        height: 44px;
+    }
+
+    .ResendCode .ResendNow {
+        margin: 8px 0 0 0 !important;
+    }
+
+    .list_of_data {
+        float: right;
+        width: 100%;
+    }
+
+    .list_of_data_orders.head {
+        display: none;
+    }
+
+    .show_horizental {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 !important;
+        margin: 40px 0 0 0;
+        border-radius: 0;
+        box-shadow: none !important;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .list_of_data.head {
+        display: none;
+    }
+
+    #CallLog .las {
+        font-size: 18px;
+    }
+
+    #CallLog {
+        width: 100%;
+        float: right;
+        color: #fff;
+        background-color: #28a745;
+        margin: 20px;
+        padding: 8px;
+        border-radius: 8px;
+        font-size: 9px;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        text-align: right;
+    }
+
+    .list_of_invoice li {
+        height: 45px !important;
+    }
+
+    .list_of_invoice {
+        margin: 0 !important;
+    }
+
+    .list_of_invoice.hide_in_desktop {
+        margin: 0 !important;
+    }
+
+    .list_of_invoice.header.fin {
+        margin-bottom: 0 !important;
+    }
+
+    .SepratorList {
+        float: right;
+        width: 100%;
+        background: #eee;
+        height: 12px;
+        background: #eee;
+    }
+
+    .phone_number_edit a {
+        font-size: 10px;
+        padding: 10px;
+    }
+
+    #Tech_DetailAjax .three {
+        width: 100% !important;
+    }
+
+    .Show_Order tr {
+        width: 100% !important;
+    }
+
+    .Show_Order.table th {
+        width: 19% !important;
+        height: 11px !important;
+    }
+
+    #CallLog {
+        width: 100% !important;
+        margin: 0px !important;
+        padding: 8px !important;
+    }
+
+    .list_of_invoice {
+        padding: 0px;
+        border-radius: 8px;
+    }
+
+    /*.main .content form {*/
+    /*    display: flex;*/
+    /*    flex-direction: column;*/
+    /*}*/
+    #form-tech-financial-list .btn {
+        width: 100px;
+        margin: 24px 0 0 0;
+        height: 30px;
+        font-size: 13px;
+        padding: 0 !important;
+    }
+
+    .form-group label {
+        font-size: 10px;
+    }
+
+    .list_of_data.hide_in_desktop {
+        margin-top: 0px;
+    }
+
+    .show_horizental {
+        padding: 0 !important;
+        margin: 0px 0 0 0;
+    }
+
+    .list_of_data.show_horizental.show_in_desktop_techfin {
+        display: none;
+    }
+
+    .list_of_data.show_horizental.show_in_mobile_techfin {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        float: left;
+        flex-wrap: wrap;
+        margin: 16px 0;
+    }
+
+    .list_of_data.show_horizental.show_in_mobile_techfin ul li .action_status {
+        background: var(--second);
+        width: 80px;
+    }
+
+    .page-template-tech_financial .form-control {
+        height: 32px;
+    }
+
+    #tech_search_filter .form-control {
+        font-size: 9px;
+        height: 40px;
+    }
+
+    #tech_search_filter .btn {
+        width: 80%;
+        padding: 10px 0;
+        font-size: 10px;
+    }
+
+    .list_tech_financial.show_in_desktop_techfin {
+        display: none;
+    }
+
+    .list_tech_financial.show_in_mobile_techfin {
+        display: block !important;
+    }
+
+    #form-tech-financial-list {
+        display: flex;
+        flex-direction: row !important;
+    }
+
+    .list_of_invoice.price_list_style {
+        display: flex;
+        flex-direction: column !important;
+        flex-wrap: nowrap;
+        float: left;
+        background: #fdc5001f;
+    }
+
+    .style-design-tech-order {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        float: right;
+    }
+
+    .style-design-tech-order .Row-reverce-list-order2 {
+        width: 100%;
+    }
+
+    .style-design-tech-order .Row-reverce-list-order1 {
+        margin: 16px 0 0 0;
+    }
+
+    .show_in_mobile_techfin ul:nth-child(2) {
+        background-color: #ffde7b;
+    }
+    .list_of_data  .Wallet_style_tech {
+        background-color: var(--green);
+    }
+.list_of_data  .Wallet_description {
+    background-color: #fff !important;
+}
+    .show_horizental .Invoice_style_tech {
+        background-color: #ffde7b;
+    }
+    .Reward_style_tech {
+        background-color: #00bdd0;
+    }
+    .Penalty_style_tech {
+        background-color: #ff6565;
+    }
+    .page-template-tech_order_list .list_of_data li {
+        display: flex;
+        flex-direction: row !important;
+    }
+}
+
